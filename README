@@ -1,0 +1,59 @@
+suomi-malaga
+------------------------------------------
+Suomi-malaga is a description of Finnish morphology written in Malaga, 
+version 7.8 or later.
+
+Currently Suomi-malaga is used in two different applications: text
+indexer Sukija and spellchecker/hyphenator Voikko. Version 1.0 and
+later will work with both applications.
+
+Build requirements:
+  cygwin-1.5.25-11
+  cygport-0.3.9-1
+  make-3.81-1
+  malaga-7.12-1
+  python-2.5.2-1
+
+Canonical website:
+  http://voikko.sourceforge.net/
+
+Canonical download:
+  http://sourceforge.net/projects/voikko/files
+
+-------------------------------------------
+
+Build instructions:
+  unpack suomi-malaga-1.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./suomi-malaga-1.0-X.cygport all
+
+This will create:
+  /usr/src/suomi-malaga-1.0-X-src.tar.bz2
+  /usr/src/suomi-malaga-1.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/voikko/voikko-fi_FI.lex_l
+  /usr/lib/voikko/voikko-fi_FI.mor_l
+  /usr/lib/voikko/voikko-fi_FI.pro
+  /usr/lib/voikko/voikko-fi_FI.sym_l
+  /usr/share/doc/suomi-malaga-1.0/CONTRIBUTORS
+  /usr/share/doc/suomi-malaga-1.0/COPYING
+  /usr/share/doc/suomi-malaga-1.0/ChangeLog
+  /usr/share/doc/suomi-malaga-1.0/README
+  /usr/share/doc/suomi-malaga-1.0/README.fi
+
+------------------
+
+Port Notes:
+
+----- version 1.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
