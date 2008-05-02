@@ -23,15 +23,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack suomi-malaga-1.0-X-src.tar.bz2
+  unpack suomi-malaga-1.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./suomi-malaga-1.0-X.cygport all
+  cygport ./suomi-malaga-1.1-X.cygport all
 
 This will create:
-  /usr/src/suomi-malaga-1.0-X-src.tar.bz2
-  /usr/src/suomi-malaga-1.0-X.tar.bz2
+  /usr/src/suomi-malaga-1.1-X-src.tar.bz2
+  /usr/src/suomi-malaga-1.1-X.tar.bz2
 
 -------------------------------------------
 
@@ -41,17 +41,17 @@ Files included in the binary package:
   /usr/lib/voikko/voikko-fi_FI.mor_l
   /usr/lib/voikko/voikko-fi_FI.pro
   /usr/lib/voikko/voikko-fi_FI.sym_l
-  /usr/share/doc/suomi-malaga-1.0/CONTRIBUTORS
-  /usr/share/doc/suomi-malaga-1.0/COPYING
-  /usr/share/doc/suomi-malaga-1.0/ChangeLog
-  /usr/share/doc/suomi-malaga-1.0/README
-  /usr/share/doc/suomi-malaga-1.0/README.fi
+  /usr/share/doc/suomi-malaga-1.1/CONTRIBUTORS
+  /usr/share/doc/suomi-malaga-1.1/COPYING
+  /usr/share/doc/suomi-malaga-1.1/ChangeLog
+  /usr/share/doc/suomi-malaga-1.1/README
+  /usr/share/doc/suomi-malaga-1.1/README.fi
 
 ------------------
 
 Port Notes:
 
------ version 1.0-1 -----
+----- version 1.1-1 -----
 Initial release for Cygwin.
 
 

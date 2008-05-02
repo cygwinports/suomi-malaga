@@ -1,0 +1,16 @@
+DESCRIPTION="Finnish morphology description for Voikko"
+HOMEPAGE="http://voikko.sourceforge.net/"
+SRC_URI="mirror://sourceforge/voikko/${P}.tar.gz"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygmake -j1 voikko
+}
+
+src_install() {
+	cd ${B}
+	cygmake -j1 voikko-install DESTDIR=${D}/usr/lib/voikko
+}
+
+DOCS="README.fi"
