@@ -1,0 +1,26 @@
+NAME="suomi-malaga"
+VERSION=1.1
+RELEASE=1
+CATEGORY="Text"
+SUMMARY="Finnish morphology description for Voikko"
+DESCRIPTION="Suomi-malaga is a description of Finnish morphology written in
+Malaga, version 7.8 or later.
+
+Currently Suomi-malaga is used in two different applications: text
+indexer Sukija and spellchecker/hyphenator Voikko. Version 1.0 and
+later will work with both applications."
+HOMEPAGE="http://voikko.sourceforge.net/"
+SRC_URI="mirror://sourceforge/voikko/${P}.tar.gz"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygmake -j1 voikko
+}
+
+src_install() {
+	cd ${B}
+	cygmake -j1 voikko-install DESTDIR=${D}/usr/lib/voikko
+}
+
+DOCS="README.fi"
