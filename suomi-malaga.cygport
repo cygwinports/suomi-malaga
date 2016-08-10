@@ -1,5 +1,5 @@
 NAME="suomi-malaga"
-VERSION=1.18
+VERSION=1.19
 RELEASE=1
 CATEGORY="Text"
 SUMMARY="Finnish morphology description for Voikko"
